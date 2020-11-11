@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Recipe Taste</string>
+    <string name="menu_name">Nama Resep</string>
+    <string name="dura">Durasi</string>
+    <string name="detail">Detail</string>
+    <string name="love">Love it!</string>
+
+    <string name="name">Nama Resep</string>
+    <string name="share">Share it!</string>
+
+    <string name="profil">Profile</string>
+    <string name="contact">Contact Us</string>
+</resources>

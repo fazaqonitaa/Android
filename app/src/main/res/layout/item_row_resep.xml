@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/relative_id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/menu_photo"
+        android:layout_width="77dp"
+        android:layout_height="69dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/menu_photo"
+        android:layout_toEndOf="@+id/menu_photo"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/display_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/merah"
+            tools:text="@string/menu_name" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:id="@+id/durasi_main"
+            android:textColor="@color/bata"
+            tools:text="@string/dura" />
+
+        <TextView
+            android:id="@+id/display_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            tools:text="@string/detail" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_layout"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_fav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:text="LOVE IT !" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

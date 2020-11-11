@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorAccent"/>
+        <TextView
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"/>
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn_profile"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_account_circle_black_24dp"
+                android:layout_marginLeft="300dp"/>
+
+        </FrameLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/menu_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/item_row_resep" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="merah">#800000</color>
+    <color name="kuning">#BDB76B</color>
+    <color name="kuningg">#BDB76B</color>
+    <color name="bata">#B22222</color>
+    <color name="coklat">#CD853F</color>
+</resources>
